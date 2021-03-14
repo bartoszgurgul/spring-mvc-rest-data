@@ -12,8 +12,8 @@ import pl.javastart.springmvcrestdata.repository.CityRepository;
 import java.util.Comparator;
 import java.util.List;
 
-@Controller
-@RestController("/api/cities")
+@RestController
+@RequestMapping("/api/cities")
 public class CityControllerRest {
     private CityRepository cityRepository;
 
